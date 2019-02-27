@@ -4,6 +4,7 @@ def second_supply_for_fourth_of_july(holiday_supplies)
   holiday_supplies[:summer][:fourth_of_july][1]
 end
 
+<<<<<<< HEAD
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
  holiday_hash[:winter].each do |holiday, supplies|
@@ -16,21 +17,53 @@ def add_supply_to_new_years(holiday_hash, supply)
   holiday_hash[:winter].each do |holiday, supply|
     supplies << extra_supply
   end
+=======
+
+def second_supply_for_fourth_of_july(holiday_supplies)
+  holiday_supplies[:summer][:fourth_of_july][1]
+end
+******************
+def add_supply_to_christmas(holiday_hash, supply)
+holiday_hash[:winter].each do |holiday, supplies|
+  supplies << extra_supply
+>>>>>>> 06b358b0db7f5681c1fdf804712a0f3627383298
 end
 
+def add_supply_to_new_years(holiday_hash, supply)
+  holiday_hash[:winter].each do |holiday, supply|
+    supplies << extra_supply
+end
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 06b358b0db7f5681c1fdf804712a0f3627383298
 def add_supply_to_memorial_day(holiday_hash, supply)
  holiday_hash[:spring][:memorial_day] << supply
 end
 
+<<<<<<< HEAD
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
  holiday_hash[season][holiday_name] = supply_array
  holiday_hash
+=======
+>>>>>>> 06b358b0db7f5681c1fdf804712a0f3627383298
 
+def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
+  holiday_hash[any season][holiday_name] << supply_array
+  hoilday_hash
 end
 
 
+<<<<<<< HEAD
+=======
+def all_winter_holiday_supplies(holiday_hash)
+  # return an array of all of the supplies that are used in the winter season
+holiday_hash[:winter].each do |holiday, supplies|
+supplies_
+end.flatten
+>>>>>>> 06b358b0db7f5681c1fdf804712a0f3627383298
 
 
 
