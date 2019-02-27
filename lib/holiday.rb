@@ -1,13 +1,13 @@
 require 'pry'
 
 def second_supply_for_fourth_of_july(holiday_supplies)
-  
+
 end
 
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
- 
- 
+
+
 end
 
 
@@ -24,13 +24,13 @@ def add_supply_to_christmas(holiday_hash, supply)
 end
 
 def add_supply_to_new_years(holiday_hash, supply)
-  
+
 end
 
 
 
 def add_supply_to_memorial_day(holiday_hash, supply)
- 
+
 end
 
 
